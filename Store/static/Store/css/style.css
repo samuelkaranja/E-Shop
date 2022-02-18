@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pd{
+    padding: 0!important;
+}
+
+.section-container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*.......... NavBar .............*/
+
+.bg-dark .account .log-btn, .bg-dark .account .sgn-btn{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+/*........... Banner ............*/
+
+.banner .carousel-item img{
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+}
+
+/*........... Category ...........*/
+
+.category{
+    margin: 20px 0;
+}
+
+.category .ct{
+    position: relative;
+    padding: 0 5px;
+    text-align: center;
+    width: 100%;
+    height: 22vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.category h4{
+    color: #fff;
+    padding-top: 18%;
+}
+
+.category span{
+    color: #fff;
+    font-weight: bold;
+}
+
+/*.......... Available Items ...........*/
+
+.items{
+    margin-top: 30px;
+}
+
+.items .header{
+    margin-left: 18px;
+}
+
+.items .card{
+    margin: 10px 0;
+}
+
+.items .card img{
+    height: 25vh !important;
+    object-fit: cover;
+}
+
+.items .card .card-title{
+    margin-bottom: 3px !important;
+}
+
+.items .card .card-text{
+    margin-bottom: 7px !important;
+}
+
+.items .card .card-body{
+    padding: 5px 20px !important;
+}
+
+/*........... Details Page ...............*/
+
+.glass{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+}
+
+.info{
+    margin-top: 70px;
+}
+
+.info .card{
+    height: 65vh;
+}
+
+.info .card img{
+    width: 100%;
+    object-fit: fit;
+}
+
+.info .card .card-title{
+    font-weight: bold;
+}
+
+.info .card .price{
+    font-weight: bold;
+}
+
+.info .info-btn{
+    background-color: green;
+}
+
+.info .des{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+/*................ Cart Page ............*/
+
+.cart{
+    margin-top: 50px;
+}
+
+.cart .card{
+    height: 55vh;
+}
+
+.cart .card img{
+    width: 100%;
+    object-fit: fit;
+}
+
+.cart .card .card-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px !important;
+}
+
+.cart .card .price{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cart .card .form-group .form-control{
+    width: 20% !important;
+}
+
+/*........... Register Form and Login Form ...........*/
+
+.register, .login{
+    margin: 30px 0;
+}
+
+.register h2, .login h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*........... Footer .............*/
+
+footer{
+    background-color: #343a40;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer h6{
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
